@@ -1,8 +1,16 @@
 # 🧠 NC TaskSuite – Focused Task Manager for Developers & Pros
 
-**Version:** `1.0.5`  
+**Version:** `1.0.6`  
 **Platform:** Windows (.NET WinForms)  
 **Developer:** Noriel Calingasan  
+**Release Date:** August 29, 2025
+
+**Highlights in v1.0.6**
+- **Undo/Redo support** for task add/remove actions (`Ctrl+Z` / `Ctrl+Y`)  
+- Reuse of task panels on undo/redo to prevent duplication  
+- Improved task handling and panel updates across tabs  
+- Smooth drag-and-drop with priority task protection  
+- Multi-panel selection and context menu optimizations  
 
 ---
 
@@ -27,6 +35,8 @@ Explore source code, report issues, or contribute:
 - Drag-and-drop sorting with press-and-hold support  
 - Subtask management: add, check off, remove subtasks easily  
 - Visual progress tracking for subtask completion percentage  
+- **Undo/Redo Support – Add or remove tasks using `Ctrl+Z` / `Ctrl+Y`**  
+- Task panels reused on undo/redo to preserve state and prevent duplication  
 
 ### Alarms & Due Dates
 - Dynamic alarm and due date icons that update instantly  
@@ -44,6 +54,7 @@ Explore source code, report issues, or contribute:
 - Single instance mode to prevent multiple app windows  
 - Fully offline, portable (~3MB), no login required  
 - Drag and drop reorder with smooth, accurate control  
+- Multi-panel selection with Shift-click & ESC deselect  
 
 ### Recurring Tasks
 - Supports daily recurring tasks with automatic daily reset  
@@ -61,14 +72,16 @@ Explore source code, report issues, or contribute:
 - Notes, category, GitHub branch and repository info  
 - Alarm and due date settings  
 - Drag to reorder, except pinned tasks  
+- **Undo/Redo enabled for task add/remove actions**  
+
 ---
 
 ## 📦 Version Info
 
 | Item          | Detail               |
 |---------------|----------------------|
-| Version       | 1.0.5                |
-| Build Date    | August 12, 2025      |
+| Version       | 1.0.6                |
+| Build Date    | August 29, 2025      |
 | Framework     | .NET 8.0+ WinForms   |
 | Architecture  | x86 / x64            |
 
@@ -82,14 +95,16 @@ Explore source code, report issues, or contribute:
 | **No Account Needed** | ✅ Yes                 | ❌ No              | ❌ No              | ❌ No              |
 | **Local File Ownership** | ✅ Yes              | ❌ No              | ❌ No              | ❌ No              |
 | **Task Reordering**   | ✅ Drag & Pin Lock     | ⚠️ Limited         | ✅ Yes             | ✅ Yes             |
+| **Undo/Redo**         | ✅ Ctrl+Z / Ctrl+Y     | ❌ No              | ❌ No              | ❌ No              |
 | **App Size**          | ~3 MB (portable EXE)   | Lightweight (Web)  | ~50 MB+            | ~200 MB+ (Electron)|
 | **Alarms & Reminders**| ✅ Full support        | ❌ No              | ✅ Basic           | ⚠️ Workaround       |
 | **Theme Switching**   | ✅ Built-in toggle     | ⚠️ Limited         | ✅ OS-based        | ✅ Yes             |
 | **Export Support**    | ✅ XML + TXT (planned) | ⚠️ Manual export   | ⚠️ Basic export    | ⚠️ Manual export   |
-| **Subtasks & Notes**  | ✅ Inline editable     | ⚠️ Basic           | ⚠️ Checklist       | ✅ Advanced        |
+| **Subtasks & Notes**  | ✅ Inline editable     | ⚠️ Basic           | ✅ Checklist       | ✅ Advanced        |
 | **Daily Reset Tasks** | ✅ Built-in            | ❌ No              | ❌ No              | ⚠️ Workaround       |
 | **Recurring Tasks**   | ⚠️ Daily only          | ❌ No              | ✅ Yes             | ✅ Yes             |
 | **Price**             | ✅ 100% Free           | ⚠️ Freemium        | ✅ Free            | ⚠️ Paid tiers      |
+
 ---
 
 ## 🖥️ Installation
@@ -104,8 +119,8 @@ No installation required. Fully offline and portable.
 ---
 
 ## 🔒 License
-NC TaskSuite is provided free for personal and educational use only.
-Users may use the software as-is but are not permitted to modify, redistribute, sell, or otherwise exploit it without explicit written permission from the developer.
+NC TaskSuite is provided free for personal and educational use only.  
+Users may use the software as-is but are not permitted to modify, redistribute, sell, or otherwise exploit it without explicit written permission from the developer.  
 All rights reserved by Noriel Calingasan.
 
 ---
@@ -137,7 +152,7 @@ All rights reserved by Noriel Calingasan.
   <BranchName>main</BranchName>
   <Owner>Noriel</Owner>
   <Category>Development</Category>
-  <Notes>Final structure for v1.0.4</Notes>
+  <Notes>Final structure for v1.0.6</Notes>
   <Tags></Tags>
   <EstimatedTime></EstimatedTime>
   <TimeSpent></TimeSpent>
