@@ -45,8 +45,8 @@
                   },
                   {
                       "path":  "NC TaskSuite.dll",
-                      "sha256":  "109BBEDDF6C508F30C73EC32F7B8952364A0277BAB73BD09CDBB631E3DA65FD5",
-                      "size":  1932288,
+                      "sha256":  "453815268840FACA5B0F881497C48FC0189F3E8F08369D1AC031350E5F0EA3E9",
+                      "size":  1947136,
                       "url":  ""
                   },
                   {
@@ -75,8 +75,8 @@
                   },
                   {
                       "path":  "NCUpdater.dll",
-                      "sha256":  "68744B1EC8F3809A0B771B77761DD038CB71F9B5CC011B25525EB766B832FF37",
-                      "size":  264192,
+                      "sha256":  "858FB56FD0AAB7362296A0C27EED57466D8FE43FBFA110F72A6848EF475F305D",
+                      "size":  265216,
                       "url":  ""
                   },
                   {
