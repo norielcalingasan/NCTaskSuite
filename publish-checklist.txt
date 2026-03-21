@@ -1,6 +1,6 @@
-﻿NC TaskSuite Release Checklist
+NC TaskSuite Release Checklist
 Version: 1.0.7
-Output: C:\Users\Nasagnilac\OneDrive\Desktop\NC_TaskSuite Data\1.0.7
+Output: C:\Users\Nasagnilac\OneDrive\Desktop\NC_TaskSuite Data
 
 1) Zip/RAR the entire release folder contents.
 2) Upload the package + manifest.json to GitHub Releases (tag v1.0.7).

@@ -1,104 +1,120 @@
 {
-    "version":  "1.0.7",
-    "files":  [
-                  {
-                      "path":  "Changelogs.txt",
-                      "sha256":  "AC0B9223713A396E7BBC976D68E823B5BAFC263382535CAB062BACE2F036A5A0",
-                      "size":  2859,
-                      "url":  ""
-                  },
-                  {
-                      "path":  "favicon.ico",
-                      "sha256":  "7F053CD18B3FA034BE91DFD063F9A7DC3CB723D043BF63D89426E5996A83DE16",
-                      "size":  210964,
-                      "url":  ""
-                  },
-                  {
-                      "path":  "Features.txt",
-                      "sha256":  "2AB36EBD2E6F5D6F51521F3B9B5A0246B73B4E547365512A17BBC54136091F6F",
-                      "size":  4689,
-                      "url":  ""
-                  },
-                  {
-                      "path":  "FontAwesome.Sharp.dll",
-                      "sha256":  "6914CFEBCA509A1BF0357D8F1592582CD9A94CE9216B1C4B23641F1F518733E0",
-                      "size":  818176,
-                      "url":  ""
-                  },
-                  {
-                      "path":  "Guna.UI2.dll",
-                      "sha256":  "35540FBF917800C063B2370FCB285CF42CA44D71355343D9126E4100E4E09D23",
-                      "size":  2244480,
-                      "url":  ""
-                  },
-                  {
-                      "path":  "NC TaskSuite.deps.json",
-                      "sha256":  "760E5C4B349A203762E5DB023D486F82ACC590076C997B2F8405EF367E5A186F",
-                      "size":  2937,
-                      "url":  ""
-                  },
-                  {
-                      "path":  "NC TaskSuite.dll",
-                      "sha256":  "5352D83092EA989FFE9B76AD9C72EB6D56B50EB88A5361697B2FC8BD74A4139D",
-                      "size":  1992192,
-                      "url":  ""
-                  },
-                  {
-                      "path":  "NC TaskSuite.dll.config",
-                      "sha256":  "B9DA824A5FED9600C24D3CEB5A10908B97580309FFEA7DDF04769986DCFAF070",
-                      "size":  3688,
-                      "url":  ""
-                  },
-                  {
-                      "path":  "NC TaskSuite.exe",
-                      "sha256":  "0BE59CC4A9511C0BCCB90F1D796AFD58A18D3A5CDD27F4D0CF866A18A69458DE",
-                      "size":  367104,
-                      "url":  ""
-                  },
-                  {
-                      "path":  "NC TaskSuite.runtimeconfig.json",
-                      "sha256":  "05917B409D59AF31BC8D3021BC06302A0C21C7D05B449603D6CC9F0301A2B66C",
-                      "size":  516,
-                      "url":  ""
-                  },
-                  {
-                      "path":  "NCUpdater.deps.json",
-                      "sha256":  "0CC11E10599408AA8206462E86CEAFA770CC58B8E13FB7CFEA5330BB50D7CE55",
-                      "size":  946,
-                      "url":  ""
-                  },
-                  {
-                      "path":  "NCUpdater.dll",
-                      "sha256":  "B0E8F208414875AC45508EAF91840FD2D117C9E0900A1BE96DA255A3A970AAAE",
-                      "size":  267776,
-                      "url":  ""
-                  },
-                  {
-                      "path":  "NCUpdater.exe",
-                      "sha256":  "3E3D8DAE516E5098266B6867FF9285874C47E699847C668D61957CE5CF951147",
-                      "size":  366592,
-                      "url":  ""
-                  },
-                  {
-                      "path":  "NCUpdater.runtimeconfig.json",
-                      "sha256":  "05917B409D59AF31BC8D3021BC06302A0C21C7D05B449603D6CC9F0301A2B66C",
-                      "size":  516,
-                      "url":  ""
-                  },
-                  {
-                      "path":  "runtimes/win/lib/net7.0/System.Management.dll",
-                      "sha256":  "A7E248C3E6F25F4673E2006FA77F4A4322A3C74C2652DCC395178329FEB7FF28",
-                      "size":  295568,
-                      "url":  ""
-                  },
-                  {
-                      "path":  "System.Management.dll",
-                      "sha256":  "F515CA5C944C332AB706FF0A7C2E53E66D0D9D8A663E9B2691B35129EE22559B",
-                      "size":  74384,
-                      "url":  ""
-                  }
-              ],
-    "deletedFiles":  [
-
-                     ]
+  "version": "1.0.7",
+  "files": [
+    {
+      "path": "Changelogs.txt",
+      "sha256": "AC0B9223713A396E7BBC976D68E823B5BAFC263382535CAB062BACE2F036A5A0",
+      "size": 2859,
+      "url": ""
+    },
+    {
+      "path": "favicon.ico",
+      "sha256": "7F053CD18B3FA034BE91DFD063F9A7DC3CB723D043BF63D89426E5996A83DE16",
+      "size": 210964,
+      "url": ""
+    },
+    {
+      "path": "Features.txt",
+      "sha256": "2AB36EBD2E6F5D6F51521F3B9B5A0246B73B4E547365512A17BBC54136091F6F",
+      "size": 4689,
+      "url": ""
+    },
+    {
+      "path": "FontAwesome.Sharp.dll",
+      "sha256": "6914CFEBCA509A1BF0357D8F1592582CD9A94CE9216B1C4B23641F1F518733E0",
+      "size": 818176,
+      "url": ""
+    },
+    {
+      "path": "Guna.UI2.dll",
+      "sha256": "35540FBF917800C063B2370FCB285CF42CA44D71355343D9126E4100E4E09D23",
+      "size": 2244480,
+      "url": ""
+    },
+    {
+      "path": "NC TaskSuite.deps.json",
+      "sha256": "760E5C4B349A203762E5DB023D486F82ACC590076C997B2F8405EF367E5A186F",
+      "size": 2937,
+      "url": ""
+    },
+    {
+      "path": "NC TaskSuite.dll",
+      "sha256": "E8A59EC06C645FEF8BDA74B8B13EB6EC69C64B45E402EF6DC38D3FA22A319780",
+      "size": 1992192,
+      "url": ""
+    },
+    {
+      "path": "NC TaskSuite.dll.config",
+      "sha256": "B9DA824A5FED9600C24D3CEB5A10908B97580309FFEA7DDF04769986DCFAF070",
+      "size": 3688,
+      "url": ""
+    },
+    {
+      "path": "NC TaskSuite.exe",
+      "sha256": "0BE59CC4A9511C0BCCB90F1D796AFD58A18D3A5CDD27F4D0CF866A18A69458DE",
+      "size": 367104,
+      "url": ""
+    },
+    {
+      "path": "NC TaskSuite.runtimeconfig.json",
+      "sha256": "05917B409D59AF31BC8D3021BC06302A0C21C7D05B449603D6CC9F0301A2B66C",
+      "size": 516,
+      "url": ""
+    },
+    {
+      "path": "NCUpdater.deps.json",
+      "sha256": "0CC11E10599408AA8206462E86CEAFA770CC58B8E13FB7CFEA5330BB50D7CE55",
+      "size": 946,
+      "url": ""
+    },
+    {
+      "path": "NCUpdater.dll",
+      "sha256": "B0E8F208414875AC45508EAF91840FD2D117C9E0900A1BE96DA255A3A970AAAE",
+      "size": 267776,
+      "url": ""
+    },
+    {
+      "path": "NCUpdater.exe",
+      "sha256": "3E3D8DAE516E5098266B6867FF9285874C47E699847C668D61957CE5CF951147",
+      "size": 366592,
+      "url": ""
+    },
+    {
+      "path": "NCUpdater.runtimeconfig.json",
+      "sha256": "05917B409D59AF31BC8D3021BC06302A0C21C7D05B449603D6CC9F0301A2B66C",
+      "size": 516,
+      "url": ""
+    },
+    {
+      "path": "publish-checklist.txt",
+      "sha256": "649ED039525830D86B003CDC4815F8A82F0C7B7C8344D29B3362AE51804A7F07",
+      "size": 561,
+      "url": ""
+    },
+    {
+      "path": "README.md",
+      "sha256": "69583C2AA815FDFEF2D0395DD533B3D844CB60948705D94BB6BC6BEFA1E018C9",
+      "size": 5417,
+      "url": ""
+    },
+    {
+      "path": "README.txt",
+      "sha256": "3E2DE7F117BA91E202D8401A9BC0AE55218D042906FE481B337DCE068837DFA3",
+      "size": 828,
+      "url": ""
+    },
+    {
+      "path": "runtimes/win/lib/net7.0/System.Management.dll",
+      "sha256": "A7E248C3E6F25F4673E2006FA77F4A4322A3C74C2652DCC395178329FEB7FF28",
+      "size": 295568,
+      "url": ""
+    },
+    {
+      "path": "System.Management.dll",
+      "sha256": "F515CA5C944C332AB706FF0A7C2E53E66D0D9D8A663E9B2691B35129EE22559B",
+      "size": 74384,
+      "url": ""
+    }
+  ],
+  "deletedFiles": []
 }
