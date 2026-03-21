@@ -1,0 +1,90 @@
+NC TaskSuite - Full Feature List
+Version: v1.0.7
+Updated: March 20, 2026
+Platform: Windows (.NET WinForms)
+Developer: Noriel Calingasan
+
+---
+
+Plan Summary
+- Free: solo core task management, reminders, basic save/load, and basic import/export with fixed task/subtask/backup limits
+- Pro Monthly: everything in Free plus profiles, themes, backups, Markdown/JSON import/export, encrypted task files, premium productivity features, and Local Bridge Sharing for private local collaboration
+- Business Monthly: everything in Pro plus Cloud Workspace setup, bring-your-own Firebase support, cloud member/category management, report export, online task management, and business cloud data controls
+
+Account and Licensing Direction
+- Google sign-in can load licenses already linked to an account and show them in a dropdown
+- Signed-in users can save and update their account profile from `Account -> Account Profile...`, and that profile is written back to the app Firestore `users/{uid}` document
+- Free-trial claims are written to the app Firestore `trialClaims/{uid}` record before the local encrypted trial license is kept on the PC
+- App update configuration can be stored in app Firestore `appConfig/updater`, with `update.json` kept only as a compatibility fallback
+- Signed-in updater admins can edit `appConfig/updater` from `Admin -> Updater Config...` after they are granted an editor document at `appConfig/updater/editors/{uid}`
+- The bundled updater supports `manifest.json` files and per-file SHA-256 checks so unchanged files can be skipped during updates
+- Signed-in shared-task members can open shared-task areas based on their assigned workspace role even if this PC has no attached paid license
+- Activation uses license key + email
+- Reset is request-only for now and is manually reviewed by the developer
+- The app can be unlinked from the current license and returned to Free mode on the current PC
+- Paid plans are monthly only for now
+- Business customers can keep licensing on the developer-managed Firebase while hosting their own company task data in their own Firebase project
+- Shared-task setup is split into `Cloud Workspace` and `Local Bridge Sharing`, each with separate member/category lists and plan caps
+- `Cloud Workspace Tasks...` signs into the configured customer Firebase project and syncs the task board to `workspaces/{workspaceId}/tasks`
+- Business setup kit includes a Firebase guide, sample client config, and Firestore rules template
+- Cloud Workspace setup in the app is gated behind the Business plan
+
+Registration Fields
+- Required: email, first name, last name, mobile number, birthdate, password/sign-in method, accepted terms/privacy
+- Optional: middle name, suffix, company name
+- Not recommended by default: address and separate billing-only identity fields until needed
+
+---
+
+Core Task Management
+- Add, edit, delete, complete, and reopen tasks
+- Support for subtasks, priority, categories, owners, notes, tags, and timestamps
+- Multi-selection across synced task panels
+- Drag-and-drop task ordering with safeguards for priority tasks
+- Quick add input for multiple tasks and subtasks
+
+Backup, Import, Export, and Merge
+- Save and load task lists in text or XML formats
+- Free: CSV import/export
+- Pro Monthly and Business Monthly: Markdown/JSON import/export
+- Business Monthly: report export with summary cards and completion trends
+- Automatic backups with retention control
+- Backup manager UI for restore and cleanup
+- Merge workflow with conflict resolution choices
+
+Profiles and Personalization
+- Multiple task list profiles
+- Profile create, rename, delete, and switch support
+- Custom theme colors
+- Custom fonts and sizing
+- Density and responsive layout preferences
+
+Licensing and Startup
+- Runs in Free mode by default
+- License activation can happen later from inside the app
+- Background license validation without blocking startup
+- Machine-bound license file handling and reset request generation
+
+Accessibility and UI
+- Keyboard activation for key task actions
+- Improved accessible names and descriptions for screen readers
+- High contrast compatibility
+- Responsive task card layout behavior
+- Compact and expanded task card states
+- Built-in About, Features, Plans & Pricing, and License screens
+- Settings lock badges/tooltips for premium-only controls
+
+Analytics and Feedback
+- Built-in feedback form
+- Optional usage stats
+- Progress tracking and printable reporting support
+
+Quality Assurance
+- Unit tests for license logic, profile logic, and export generation
+- UI smoke test that verifies the app can launch and show its main window
+
+Support Files
+- Bundled changelog
+- Version metadata for update workflows
+
+

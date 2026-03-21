@@ -1,0 +1,53 @@
+NC TaskSuite - Changelog
+====================================
+Version: v1.0.7 - Stability, Profiles, Free Mode, Backup Safety, Responsive UI and Test Coverage
+Refresh Date: March 20, 2026
+
+What Changed in the March 20, 2026 Refresh
+------------------------------------
+Startup and Licensing
+- Free Mode Startup - The app now opens without forcing license activation first.
+- Optional Unlock Flow - Users can activate a license later from the License window.
+- Safer Startup Behavior - Removed the early free-mode popup path that could crash before the window handle existed.
+
+Profiles and Personalization
+- Multiple Profiles - Added profile management for separate task lists.
+- Profile Switching - Users can create, rename, delete, and switch profiles from the File menu.
+- Profile Persistence - Each profile keeps its own task file and remembers the active profile.
+
+Data Safety and Reporting
+- Backup Manager - Restore, inspect, delete, and manage backups from a dedicated UI.
+- Merge Conflict Resolution - Added a conflict resolution workflow for merging task files.
+- HTML Reporting Improvements - Reports now include a completion trend section.
+- Versioned Backups - Backup retention now follows a configurable limit.
+
+Accessibility and UI
+- Accessibility Improvements - Added better accessible names, keyboard activation, and screen-reader-friendly task details.
+- Responsive Layouts - Task cards adapt more cleanly to narrower layouts.
+- Theme Customization - Custom colors, fonts, density, and layout preferences are supported.
+
+Quality Assurance
+- Automated Unit Tests - Added coverage for license management, profiles, and export generation.
+- Automated UI Smoke Test - Added a launch test that verifies the main window appears.
+- Safer Internal Test Hooks - Added isolated overrides so tests do not modify real AppData state.
+
+Existing v1.0.7 Release Highlights
+------------------------------------
+Multi-Panel Selection & Context Menu
+- Enhanced Selection Logic - Toggle selection across tabs using TaskMeta reference.
+- Shift-Click & ESC Support - Multi-select with shift-click; ESC deselects all panels and hides context menus.
+- Context Menu Optimization - Shows only relevant options for selected tasks.
+- Selection Sync - Keeps selections consistent across all panels with the same TaskMeta ID.
+
+Drag-and-Drop Enhancements
+- Smooth Reordering - Consolidated long-press detection and drag threshold checks.
+- Priority Task Protection - Prevents moving priority tasks with clear warning messages.
+- Preserve Order & Selection - Task order and selection mirrored across all tabs.
+
+Import & Export
+- CSV & Markdown Support - Import and export tasks with full metadata and subtasks.
+- Daily Reset - Imported daily tasks now reset automatically.
+
+Crash Logging
+- Crash logs are saved automatically in the Logs folder with timestamped filenames.
+
