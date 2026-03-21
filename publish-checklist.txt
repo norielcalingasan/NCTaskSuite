@@ -1,0 +1,14 @@
+﻿NC TaskSuite Release Checklist
+Version: 1.0.7
+Output: C:\Users\Nasagnilac\OneDrive\Desktop\NC_TaskSuite Data\1.0.7
+
+1) Zip/RAR the entire release folder contents.
+2) Upload the package + manifest.json to GitHub Releases (tag v1.0.7).
+3) Update Firestore appConfig/updater:
+   - currentVersion: 1.0.7
+   - manifestUrl: <raw manifest.json url>
+   - fullPackageUrl: <download package url>
+   - minimumSupportedVersion:  (optional)
+   - channel: beta
+4) Open the app and verify About > Updater Status.
+5) Test updater flow with a clean install if possible.
