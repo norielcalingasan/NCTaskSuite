@@ -26,12 +26,6 @@
                       "url":  ""
                   },
                   {
-                      "path":  "firebase.auth.config.enc",
-                      "sha256":  "F4569AA65DB4523EC2ECF36F9FE41E2AADAD9055306271B2DBDAB04753929043",
-                      "size":  1147,
-                      "url":  ""
-                  },
-                  {
                       "path":  "FontAwesome.Sharp.dll",
                       "sha256":  "6914CFEBCA509A1BF0357D8F1592582CD9A94CE9216B1C4B23641F1F518733E0",
                       "size":  818176,
@@ -51,8 +45,8 @@
                   },
                   {
                       "path":  "NC TaskSuite.dll",
-                      "sha256":  "9662DD2CE52ED6667C9CFF3D966B000F1A76A337456E9EFFE3B95B9D405F3BCD",
-                      "size":  1929216,
+                      "sha256":  "109BBEDDF6C508F30C73EC32F7B8952364A0277BAB73BD09CDBB631E3DA65FD5",
+                      "size":  1932288,
                       "url":  ""
                   },
                   {
@@ -63,7 +57,7 @@
                   },
                   {
                       "path":  "NC TaskSuite.exe",
-                      "sha256":  "C97683126C454E9F8CCAB1D0C41C2F13743DCFD28DE779A36F12C94A0C36CEE3",
+                      "sha256":  "BBA72E662CEAE0C77D2853DF841174A471A3B64A9942513159672FCF4816C2AC",
                       "size":  367104,
                       "url":  ""
                   },
@@ -81,13 +75,13 @@
                   },
                   {
                       "path":  "NCUpdater.dll",
-                      "sha256":  "8B035A7716C439BB5C1BA76F1BC06D241935B70DA5153BF160D76ABE6CBF326D",
-                      "size":  263680,
+                      "sha256":  "68744B1EC8F3809A0B771B77761DD038CB71F9B5CC011B25525EB766B832FF37",
+                      "size":  264192,
                       "url":  ""
                   },
                   {
                       "path":  "NCUpdater.exe",
-                      "sha256":  "C8F3617AA5B0157602758EDB72736C98F6456D932D9F4C24FEECC47CD5A40B23",
+                      "sha256":  "684DBC016CD80AAD217A23F1661C0D64F10623DF8984080DD862FC9CCD0D3EC0",
                       "size":  366592,
                       "url":  ""
                   },
