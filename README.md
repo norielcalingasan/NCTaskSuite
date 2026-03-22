@@ -64,14 +64,6 @@ https://github.com/norielcalingasan/NCTaskSuite
 - Single-instance protection to prevent duplicate app windows
 - Built-in updater with manifest-based per-file updates
 
-## About NuGet Options (Large Task Lists)
-For very large lists (thousands of tasks), WinForms + FlowLayoutPanel will still struggle.  
-If you want a bigger performance jump:
-- ObjectListView (BrightIdeasSoftware): virtual list with grouping, filtering, fast scrolling
-- FastObjectListView (same package): virtual mode and smoother redraws
-
-These require redesigning the card UI into row/column items, so I haven't switched yet.
-If you'd like, I can prototype ObjectListView with a simplified row layout.
 
 ### Built-In Help Screens
 - In-app About screen with current version, plan, profile, and account status
