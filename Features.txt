@@ -1,5 +1,5 @@
 NC TaskSuite - Full Feature List
-Version: v1.0.9
+Version: v1.0.10
 Updated: March 22, 2026
 Platform: Windows (.NET WinForms)
 Developer: Noriel Calingasan
@@ -86,6 +86,7 @@ Quality Assurance
 Support Files
 - Bundled changelog
 - Version metadata for update workflows
+
 
 
 

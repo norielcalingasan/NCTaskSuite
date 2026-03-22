@@ -1,5 +1,5 @@
 NC TaskSuite (Client Readme)
-Version: 1.0.9 (Beta)
+Version: 1.0.10 (Beta)
 
 What is NC TaskSuite?
 - A task manager for solo work, private local teams, and optional shared workflows.
@@ -24,5 +24,6 @@ Data & privacy
 
 Support
 - For help or license support, contact your NC TaskSuite provider.
+
 
 

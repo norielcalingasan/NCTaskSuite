@@ -1,6 +1,6 @@
 # NC TaskSuite
 
-Version: 1.0.9 Beta
+Version: 1.0.10 Beta
 Platform: Windows (.NET WinForms)
 Developer: Noriel Calingasan
 
@@ -80,7 +80,7 @@ https://github.com/norielcalingasan/NCTaskSuite
 
 | Item          | Detail               |
 |---------------|----------------------|
-| Version       | 1.0.9                |
+| Version       | 1.0.10                |
 | Build Date    | March 22, 2026       |
 | Framework     | .NET 9.0+ WinForms   |
 | Architecture  | x86 / x64            |
@@ -115,6 +115,7 @@ NC TaskSuite is provided free for personal and educational use only.
 Users may use the software as-is but are not permitted to modify, redistribute, sell,
 or otherwise exploit it without explicit written permission from the developer.
 All rights reserved by Noriel Calingasan.
+
 
 
 
