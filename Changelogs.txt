@@ -1,5 +1,21 @@
 NC TaskSuite - Changelog
 ====================================
+Version: v1.0.11 - Rendering Performance, Layout Stability, and Large-List Smoothness
+Refresh Date: March 22, 2026
+
+Rendering and Layout
+- Viewport Redraw Culling - Off-screen task cards skip redraws until visible to reduce paint cost.
+- Layout Caching - Width and layout work is skipped when nothing changed.
+- Resize Batching - UI updates are grouped to reduce flicker during window resize.
+- Visible-Only Resizing - Task resize work is applied only to visible cards.
+
+Task Board Experience
+- Sticky Group Headers - Current group header stays visible while scrolling.
+- Collapsible Groups - Expand/collapse sections for faster navigation.
+- Wide Board Columns - Auto column sizing on large screens for a Trello-style view.
+- Pinned Selection Toolbar - Bulk actions stay visible above the list.
+
+------------------------------------
 Version: v1.0.10 - Stability, Profiles, Free Mode, Backup Safety, Responsive UI and Test Coverage
 Refresh Date: March 20, 2026
 

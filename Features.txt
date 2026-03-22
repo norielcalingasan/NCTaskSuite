@@ -1,5 +1,5 @@
 NC TaskSuite - Full Feature List
-Version: v1.0.10
+Version: v1.0.11
 Updated: March 22, 2026
 Platform: Windows (.NET WinForms)
 Developer: Noriel Calingasan
@@ -71,6 +71,9 @@ Accessibility and UI
 - High contrast compatibility
 - Responsive task card layout behavior
 - Compact and expanded task card states
+- Group headers with collapse and sticky header on scroll
+- Pinned selection toolbar with bulk actions
+- Wide-screen board layout with auto column sizing
 - Built-in About, Features, Plans & Pricing, and License screens
 - Settings lock badges/tooltips for premium-only controls
 
