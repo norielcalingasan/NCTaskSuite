@@ -45,8 +45,8 @@
                   },
                   {
                       "path":  "NC TaskSuite.dll",
-                      "sha256":  "CDCBBF145CA808C2F0ECE48FAD7E071C7A434F4DD7EA2BAADD8572AF06B4F628",
-                      "size":  2206720,
+                      "sha256":  "2F75A983044FCF42EE43F9B92C1476670A3B2841C8FAF10CC286521D77A7113E",
+                      "size":  2215424,
                       "url":  ""
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "path":  "NC TaskSuite.exe",
-                      "sha256":  "972F966F126CC0F95C25554637DF2EACD2352FCF816EE9CF3E41E5B6CD19759E",
+                      "sha256":  "E27D75711A28919E06789B772016F3F1DFA26F021A522A7E164398303EF01908",
                       "size":  367104,
                       "url":  ""
                   },
@@ -75,13 +75,13 @@
                   },
                   {
                       "path":  "NCUpdater.dll",
-                      "sha256":  "63C7718961E54B79D942DB259470E5D2DD5355DE88D28CDEB06B6F46067B4BA7",
+                      "sha256":  "A218A5F8F2F4DBE70E00727392A67906340B7BFCA7D598087F6F175C7CD1E358",
                       "size":  264192,
                       "url":  ""
                   },
                   {
                       "path":  "NCUpdater.exe",
-                      "sha256":  "8893EA0D2D5612FC5E85A3290B02010850EBB41EDF1265303ACE9BA5DD33BABC",
+                      "sha256":  "C80216BF5D111D1CE4924DAC223FF6F813C6134308CBE2FCE3562E130F68335A",
                       "size":  366592,
                       "url":  ""
                   },
