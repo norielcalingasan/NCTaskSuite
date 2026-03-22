@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v9.0": {
-      "NC TaskSuite/1.0.10": {
+      "NC TaskSuite/1.0.11": {
         "dependencies": {
           "FontAwesome.Sharp": "6.6.0",
           "Guna.UI2.WinForms": "2.0.4.7"
@@ -57,7 +57,7 @@
     }
   },
   "libraries": {
-    "NC TaskSuite/1.0.10": {
+    "NC TaskSuite/1.0.11": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -15,7 +15,7 @@ Account and Licensing Direction
 - Google sign-in can load licenses already linked to an account and show them in a dropdown
 - Signed-in users can save and update their account profile from `Account -> Account Profile...`, and that profile is written back to the app Firestore `users/{uid}` document
 - Free-trial claims are written to the app Firestore `trialClaims/{uid}` record before the local encrypted trial license is kept on the PC
-- App update configuration can be stored in app Firestore `appConfig/updater`, with `update.json` kept only as a compatibility fallback
+- App update configuration is stored in app Firestore `appConfig/updater` (no local `update.json` fallback)
 - Signed-in updater admins can edit `appConfig/updater` from `Admin -> Updater Config...` after they are granted an editor document at `appConfig/updater/editors/{uid}`
 - The bundled updater supports `manifest.json` files and per-file SHA-256 checks so unchanged files can be skipped during updates
 - Signed-in shared-task members can open shared-task areas based on their assigned workspace role even if this PC has no attached paid license
