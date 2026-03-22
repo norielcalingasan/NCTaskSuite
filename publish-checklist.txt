@@ -1,11 +1,11 @@
 ﻿NC TaskSuite Release Checklist
-Version: 1.0.8
+Version: 1.0.9
 Output: D:\GitHub\NCTaskSuite
 
 1) Zip/RAR the entire release folder contents.
-2) Upload the package + manifest.json to GitHub Releases (tag v1.0.8).
+2) Upload the package + manifest.json to GitHub Releases (tag v1.0.9).
 3) Update Firestore appConfig/updater:
-   - currentVersion: 1.0.8
+   - currentVersion: 1.0.9
    - manifestUrl: <raw manifest.json url>
    - fullPackageUrl: <download package url>
    - minimumSupportedVersion:  (optional)

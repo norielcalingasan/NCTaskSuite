@@ -1,5 +1,5 @@
 {
-    "version":  "1.0.8",
+    "version":  "1.0.9",
     "files":  [
                   {
                       "path":  "app.core.dat",
@@ -9,8 +9,8 @@
                   },
                   {
                       "path":  "Changelogs.txt",
-                      "sha256":  "CFD2E2ABE238897FB79E82AAB9BC5C581A87B1B43BF631E83F44E99D0D879F92",
-                      "size":  2861,
+                      "sha256":  "C3451C0C7768013C774FE7436AFAF3554C319484DD26989396D943334678F9A4",
+                      "size":  2863,
                       "url":  ""
                   },
                   {
@@ -21,8 +21,8 @@
                   },
                   {
                       "path":  "Features.txt",
-                      "sha256":  "FA2FDDC354A49760CE668CBEE9CAA7896CF09880A6BBF02838AE2D3CA09E0B95",
-                      "size":  4691,
+                      "sha256":  "4A307B71CB86184DA616696AC2F292E4E57723408A3411B186F046D6C3D88AB1",
+                      "size":  4695,
                       "url":  ""
                   },
                   {
@@ -39,14 +39,14 @@
                   },
                   {
                       "path":  "NC TaskSuite.deps.json",
-                      "sha256":  "081B4C6970BE6118014B20843CB9AA656C7E4D77821188E677A257ABDF8BE2BF",
+                      "sha256":  "7F272C6B94EAE16F5C5171A683B3979B222046A6D081940F2E2E546A5952D85C",
                       "size":  2937,
                       "url":  ""
                   },
                   {
                       "path":  "NC TaskSuite.dll",
-                      "sha256":  "9E7B7EB7EF5302E0A317F0902CF61D903CBD820E08FD55AA91F3E52C110565B2",
-                      "size":  2206208,
+                      "sha256":  "CDCBBF145CA808C2F0ECE48FAD7E071C7A434F4DD7EA2BAADD8572AF06B4F628",
+                      "size":  2206720,
                       "url":  ""
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "path":  "NC TaskSuite.exe",
-                      "sha256":  "BBA72E662CEAE0C77D2853DF841174A471A3B64A9942513159672FCF4816C2AC",
+                      "sha256":  "972F966F126CC0F95C25554637DF2EACD2352FCF816EE9CF3E41E5B6CD19759E",
                       "size":  367104,
                       "url":  ""
                   },
@@ -69,19 +69,19 @@
                   },
                   {
                       "path":  "NCUpdater.deps.json",
-                      "sha256":  "34586E2776F0751F31E9A8578977E9F6B139D2E03E88A2AA913E12D5F99395F2",
+                      "sha256":  "95F55BC708D874A953E804D18475D089A368AEF85B91EA240EB4C5C0BFEE369C",
                       "size":  946,
                       "url":  ""
                   },
                   {
                       "path":  "NCUpdater.dll",
-                      "sha256":  "8CB9F52EB810F57C32114ACB5720C29D86B885A50CC9CF9D0D5D30E7E8776602",
+                      "sha256":  "63C7718961E54B79D942DB259470E5D2DD5355DE88D28CDEB06B6F46067B4BA7",
                       "size":  264192,
                       "url":  ""
                   },
                   {
                       "path":  "NCUpdater.exe",
-                      "sha256":  "684DBC016CD80AAD217A23F1661C0D64F10623DF8984080DD862FC9CCD0D3EC0",
+                      "sha256":  "8893EA0D2D5612FC5E85A3290B02010850EBB41EDF1265303ACE9BA5DD33BABC",
                       "size":  366592,
                       "url":  ""
                   },
@@ -93,20 +93,20 @@
                   },
                   {
                       "path":  "publish-checklist.txt",
-                      "sha256":  "3A24FD702813F23A3E644652785ABE52B7E501B97CCAF86D029E2D950D91573C",
+                      "sha256":  "7C21C6B086C3BB509218A88313B7D055015B035CAE419A620580F7A548495FF9",
                       "size":  531,
                       "url":  ""
                   },
                   {
                       "path":  "README.md",
-                      "sha256":  "5C053B2B98A3C1678B354967A72E076B6C7F80CB2A44C014E9E5A1EFBC7B38EA",
-                      "size":  5419,
+                      "sha256":  "EDEA29F8943EAD6B60A872F44D6CD82A96D078F1A9A3EAFAD5AA078E92507E28",
+                      "size":  5423,
                       "url":  ""
                   },
                   {
                       "path":  "README.txt",
-                      "sha256":  "7FD3729C71191E2EC32DB3894E03C656B92467F2944904D7B0FCC1EBDE960F2F",
-                      "size":  830,
+                      "sha256":  "AB16C1D498AE19525EB35EBAE910D999B3856A0CE4849741CE3335B8C8E98E3B",
+                      "size":  832,
                       "url":  ""
                   },
                   {
